@@ -9,4 +9,4 @@ A color guessing application that utilizes Vanilla JavaScript and DOM manipulati
  * In EASY mode you are provided with 3 squares with different colors.
  * The goal of the game is to guess which square corresponds to the RGB number at the top of the page.
  * When you guess correctly all the squares adopt the guessed color, the background of the title also changes.
- * To reset the game you can click on the NEW COLORS/ PLAY AGAIN ? button.
+ * To reset the game you can click on the NEW COLORS/ PLAY AGAIN? button.
