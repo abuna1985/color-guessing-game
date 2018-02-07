@@ -25,7 +25,7 @@ easyBtn.addEventListener("click", function() {
       square.style.display = "none";
     }
   });
-  title.style.background = "#232323";
+  title.style.background = "#4682b4";
   messageDisplay.textContent = "";
 });
 
@@ -43,6 +43,7 @@ hardBtn.addEventListener("click", function() {
 });
 
 resetButton.addEventListener("click", function() {
+  resetButton.textContent = "New Colors";
   // generate all new colors
   colors = generateRandomColors(numSquares);
   //pick new random color from array
@@ -54,7 +55,7 @@ resetButton.addEventListener("click", function() {
     //change each color to match given color
     square.style.backgroundColor = colors[i];
   });
-  title.style.background = "#232323";
+  title.style.background = "#4682b4";
   messageDisplay.textContent = "";
 });
 
